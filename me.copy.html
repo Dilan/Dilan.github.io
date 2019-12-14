@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Cover Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.v3.3.7.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link type="text/css" rel="stylesheet" href="/css/typed.main.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/typed.cursor.css"/>
+    <link href="/css/cover.css" rel="stylesheet">
+    
+    <script src="/js/typed.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+          Typed.new('.element', {
+            strings: ["Hello, World!", "My name is, Anton", "I'm software engineer."],
+            typeSpeed: 0
+          });
+      });
+      
+      var printMessage = function(text) {
+          Typed.new('.element', {
+            strings: [text],
+            typeSpeed: 0
+          });
+      }
+      
+      var line = "";      
+      window.addEventListener("keydown", function (event) {
+          if (event.defaultPrevented) {
+            return; // Do nothing if the event was already processed
+          }
+          
+          var key = "";
+          switch (event.key) {
+            case "F1":
+            case "F2":
+            case "F3":
+            case "F4":
+            case "F5":
+            case "F6":
+            case "F7":
+            case "F8":
+            case "F9":
+            case "F10":
+            case "Escape":
+            case "ArrowDown":
+            case "ArrowUp":
+            case "Alt":
+            case "Meta":
+            case "Control":
+            case "ArrowLeft":
+            case "ArrowRight":
+                key += ""
+                break;
+            case "Backspace":
+                break;
+            case "Enter":
+                key += "<br />"
+              break;
+            default:
+              key += event.key;
+          }
+          
+          var div = document.getElementById('element');
+          if (event.key == 'Backspace') {
+                var line = div.innerHTML;
+                div.innerHTML = line.substr(0, line.length-1);
+          } else if (event.key == 'Enter') {
+                printMessage("Cool hacker, ah :)")
+          } else {
+                div.innerHTML = div.innerHTML + key;
+          }
+          
+          // Cancel the default action to avoid it being handled twice
+          event.preventDefault();
+        }, true);
+      
+    </script>
+
+    
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Anton Plotnikov</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <div class="cssterm">
+	               dilan@MacBook ~/project/ <code style="color:#c7254e !important;">(master)</code> $
+                   <code class="s">   
+                      <span id="element" class="element"></span>
+	               </code>
+               </div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p><a href="https://github.com/dilan">@dilan</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="/js/jquery.v1.12.4.min.js"></script> -->
+    <!-- <script src="/js/bootstrap.v3.3.7.min.js"></script> -->
+  </body>
+</html>

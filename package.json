@@ -1,0 +1,14 @@
+{
+  "name": "dilan.online",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "d3": "4.10.0",
+    "webpack": "3.4.1"
+  }
+}

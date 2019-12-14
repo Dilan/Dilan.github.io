@@ -1,0 +1,324 @@
+{
+  "name": "Kuczyńska Marcelina + Kuczyńsky Genrik",
+  "name_ru": "Генрих + Марцелина Кучинские",
+  "children": [
+    {
+      "name": "Mundzia Kuczyńska (1923) + Franciszek Nagalewski",
+      "style": {
+        "stroke": "#DE00FF"
+      },
+      "children": [
+        {
+          "name": "Jadwiga Nagalewska + Gennady Romanenko",
+          "children": [
+            {
+              "name": "Wład Romanenko",
+              "children": [
+                {
+                  "name": "Dmitry",
+                  "style": {
+                    "stroke": "#DE00FF"
+                  }
+                },
+                {
+                  "name": "Olga",
+                  "style": {
+                    "stroke": "#DE00FF"
+                  }
+                }
+              ],
+              "style": {
+                "stroke": "#DE00FF"
+              }
+            },
+            {
+              "name": "Elizaweta Romanenko",
+              "children": [
+                {
+                  "name": "Timofey",
+                  "style": {
+                    "stroke": "#DE00FF"
+                  }
+                }
+              ],
+              "style": {
+                "stroke": "#DE00FF"
+              }
+            }
+          ],
+          "style": {
+            "stroke": "#DE00FF"
+          }
+        },
+        {
+          "name": "Walentyna Nagalewska",
+          "children": [
+            {
+              "name": "Slawa Jachyn",
+              "style": {
+                "stroke": "#DE00FF"
+              }
+            },
+            {
+              "name": "Julia Jachyna",
+              "style": {
+                "stroke": "#DE00FF"
+              },
+              "children": [
+                {
+                  "name": "Rita",
+                  "style": {
+                    "stroke": "#DE00FF"
+                  }
+                },
+                {
+                  "name": "Michał",
+                  "style": {
+                    "stroke": "#DE00FF"
+                  }
+                }
+              ]
+            }
+          ],
+          "select": true,
+          "style": {
+            "font-size": "15",
+            "font-weight": "bold",  
+            "stroke": "#DE00FF"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jadwiga Kuczyńska (1925) + Mieczysław  Wolański",
+      "name_ru": "Ядвига Кучинская + Мичислав Волянский",
+      "style": {
+        "stroke": "#00FF00"
+      },
+      "children": [
+        {
+          "name": "Wiktor Wolański + Raisa",
+          "select": true,
+          "style": {
+            "font-size": "15",
+            "font-weight": "bold",  
+            "stroke": "#00FF00"
+          },
+          "children": [
+            {
+              "name": "Włodzimierz Wolański",
+              "style": {
+                "stroke": "#00FF00"
+              },
+              "children": [
+                {
+                  "name": "",
+                  "style": {
+                    "stroke": "#00FF00"
+                  }
+                },
+                {
+                  "name": "",
+                  "style": {
+                    "stroke": "#00FF00"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ludmiła Wolańska + Sergiej Lisowski",
+              "select": true,
+              "style": {
+                "font-size": "15",
+                "font-weight": "bold",
+                "stroke": "#00FF00"
+              },
+              "children": [
+                {
+                  "name": "Andrzej",
+                  "style": {
+                    "stroke": "#00FF00"
+                  }
+                },
+                {
+                  "name": "Vład",
+                  "style": {
+                    "stroke": "#00FF00"
+                  }
+                },
+                {
+                  "name": "Anastazja",
+                  "style": {
+                    "stroke": "#00FF00"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Anatolij Wolański",
+          "style": {
+            "stroke": "#00FF00"
+          },
+          "children": [
+            {
+              "_name_": "Slawa",
+              "name": "",
+              "style": {
+                "stroke": "#00FF00"
+              }
+            },
+            {
+              "_name_": "Katarzyna",
+              "name": "",
+              "style": {
+                "stroke": "#00FF00"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Władysław Wolański",
+          "style": {
+            "stroke": "#00FF00"
+          },
+          "children": [
+            {
+              "name": "Aleksandr",
+              "style": {
+                "stroke": "#00FF00"
+              }
+            },
+            {
+              "name": "Boris",
+              "style": {
+                "stroke": "#00FF00"
+              }
+            },
+            {
+              "name": "Aleksy",
+              "style": {
+                "stroke": "#00FF00"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edmund Kuczyńsky (1930) + Janina Więgłowska",
+      "name_ru": "Эдмонт Кучинский + Нина",
+      "style": {
+        "stroke": "#00F"
+      },
+      "children": [
+        {
+          "name": "Helena Kuczyńska",
+          "style": {
+            "stroke": "#00F"
+          },
+          "children": [
+            {
+              "name": "Włodzimierz",
+              "style": {
+                "stroke": "#00F"
+              }
+            },
+            {
+              "name": "Olga",
+              "style": {
+                "stroke": "#00F"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Włodzimierz Kuczyński +",
+          "select": true,
+          "style": {
+            "font-size": "15",
+            "font-weight": "bold",
+            "stroke": "#00F"
+          },
+          "children": [
+            {
+              "name": "Julia Kuczyńska",
+              "style": {
+                "stroke": "#00F"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Maria Kuczyńska",
+          "style": {
+            "stroke": "#00F"
+          },
+          "children": [
+            {
+              "name": "Natalia",
+              "style": {
+                "stroke": "#00F"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kazimiera Kuczyńska (1931) + Garold Kolesnikow",
+      "name_ru": "Казимира Кучинская + Гарольд Колесников",
+      "select": true,
+      "style": {
+        "font-size": "14",
+        "font-weight": "bold",
+        "stroke-width": "2.5px",
+        "stroke": "#F00"
+      },
+      "children": [
+        {
+          "name": "Natalia Kolesnikowa",
+          "style": {
+            "stroke": "#F00"
+          },
+          "children": [
+            {
+              "name": "Paweł",
+              "style": {
+                "stroke": "#F00"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Aleksandr Kolesnikow",
+          "style": {
+            "stroke-width": "2.5px",
+            "stroke": "#F00"
+          },
+          "children": [
+            {
+              "name": "Julia Kolesnikowa + Anton Plotnikow",
+              "select": true,
+              "style": {
+                "font-weight": "bold",
+                "font-size": "15",
+                "stroke-width": "2.5px",
+                "stroke": "#F00"
+              },
+              "children": [
+                {
+                  "name": "Diana Plotnikowa",
+                  "style": {
+                    "stroke": "#F00"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
